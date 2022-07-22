@@ -1,0 +1,65 @@
+.footer {
+  background-color: #214e41;
+}
+.brella-box {
+  display: flex;
+  flex-direction: row;
+  width: 592px;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.brella-list {
+  display: flex;
+  flex-direction: row;
+}
+.join-list {
+  width: 186.65px;
+  margin-right: 16px;
+}
+
+.join-list__title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.85;
+  letter-spacing: 0.02px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.company-list {
+  width: 186.65px;
+}
+.company-list__title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.85;
+  letter-spacing: 0.02px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.join-list__link {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.69;
+  color: #ffffff;
+  text-decoration: none;
+}
+.company-list__link {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.69;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+}
+.join-list__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.company-list__item:not(:last-child) {
+  margin-bottom: 15px;
+}

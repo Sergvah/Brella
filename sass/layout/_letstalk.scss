@@ -1,0 +1,43 @@
+.letstalk {
+  display: flex;
+  flex-direction: row;
+}
+.letstalk__box {
+  background-color: #e3eeed;
+  width: 100%;
+  padding-top: 144px;
+  padding-left: 120px;
+}
+.letstalk__text {
+  width: 423px;
+  margin-bottom: 46px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.28;
+
+  color: #214e41;
+}
+.letstalk__second-text {
+  margin-bottom: 60px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.28;
+
+  color: #214e41;
+}
+.letstalk__btn {
+  width: 125px;
+  height: 47px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.02px;
+  color: #ffffff;
+  background: #43806c;
+  border: 1px solid #43806c;
+  border-radius: 6px;
+}

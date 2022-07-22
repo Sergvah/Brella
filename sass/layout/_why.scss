@@ -1,0 +1,91 @@
+.why {
+  padding-top: 176px;
+  padding-bottom: 120px;
+}
+.why__excerpt {
+  font-family: "Raleway";
+
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.54;
+
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+
+  color: #43806c;
+}
+.why__title {
+  width: 478px;
+  font-family: "Roboto";
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.28;
+
+  color: #214e41;
+  margin-top: 20px;
+}
+.why__text {
+  width: 477px;
+  font-family: "Raleway";
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+
+  letter-spacing: 0.02px;
+
+  color: #757575;
+  margin-top: 34px;
+}
+.why__link {
+  display: block;
+  width: 107px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.02px;
+  text-align: center;
+  color: #214e41;
+  margin-top: 26px;
+}
+.why-statistik {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.statistic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.statistic__text {
+  font-family: "Roboto";
+  position: absolute;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.29;
+
+  color: #214e41;
+}
+
+.statistic__second-text {
+  font-family: "Raleway";
+  position: absolute;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.69;
+  letter-spacing: 0.02px;
+  top: 1250px;
+  color: #214e41;
+}
+.statistic__third-text {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.69px;
+  text-align: end;
+  margin-top: 10px;
+  color: #757575;
+}

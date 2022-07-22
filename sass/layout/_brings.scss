@@ -1,0 +1,77 @@
+.brings {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: linear-gradient(to right, #e3eeed 50%, #214e41 50%);
+}
+.brings__kub {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.brings__excerpt {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.54;
+
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+
+  color: #214e41;
+}
+.brings__title {
+  font-family: "Roboto";
+  position: relative;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.31;
+  margin-top: 29px;
+  color: #214e41;
+}
+.brings__text {
+  font-family: "Roboto";
+  width: 500px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.8;
+  margin-top: 9px;
+  color: #43806c;
+}
+.brings__second-text {
+  width: 500px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.7;
+  letter-spacing: 0.02px;
+  padding-top: 40px;
+
+  color: #ffffff;
+}
+.brings__third-text {
+  width: 500px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.7;
+  letter-spacing: 0.02px;
+  margin-top: 34px;
+  color: #ffffff;
+}
+.icon-brings::after {
+  height: 23px;
+  width: 30px;
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url("../../images/strelka.png");
+  margin-left: 10px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}

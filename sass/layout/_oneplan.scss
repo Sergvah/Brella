@@ -1,0 +1,68 @@
+.oneplan {
+  padding-top: 120px;
+}
+.oneplan__box {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+  justify-content: space-between;
+}
+
+.oneplan__second-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.oneplan__excerpt {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.54;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #43806c;
+}
+.oneplan__title {
+  width: 556px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.28;
+  margin-bottom: 34px;
+  color: #214e41;
+}
+.oneplan__text {
+  width: 551px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02px;
+
+  color: #757575;
+}
+.oneplan__item {
+  width: 262.5px;
+}
+.oneplan__list {
+  display: flex;
+  justify-content: space-between;
+}
+.oneplan__second-text {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.69;
+  letter-spacing: 0.02px;
+
+  color: #214e41;
+}
+.oneplan__numbers {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.3;
+
+  color: #f0a446;
+}

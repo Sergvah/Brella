@@ -1,0 +1,51 @@
+.experience {
+  padding-top: 120px;
+}
+.experience__kub {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 100px;
+}
+.experience__box {
+  padding-left: 120px;
+  padding-top: 68px;
+}
+.experience__excerpt {
+  display: block;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 1.54;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806c;
+  margin-bottom: 20px;
+}
+.experience__title {
+  width: 483px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.28;
+  color: #214e41;
+  margin-bottom: 34px;
+}
+.experience__text {
+  width: 545px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02px;
+  color: #757575;
+  margin-bottom: 26px;
+}
+.experience__link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.02px;
+  color: #214e41;
+}

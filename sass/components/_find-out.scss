@@ -1,0 +1,43 @@
+.find-out {
+  margin-top: 40px;
+}
+.find-out__text {
+  margin-bottom: 16px;
+}
+.find-out__input {
+  width: 280px;
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 21px;
+  border: none;
+  background-color: #fff;
+  border-radius: 6px 0px 0px 6px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.43;
+  &::placeholder {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.43;
+
+    color: #222222;
+  }
+}
+
+.find-out__btn {
+  width: 123px;
+  height: 60px;
+  padding: 20px 35px;
+  font-family: "Raleway";
+
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.54;
+  background: #43806c;
+  border-radius: 0px 6px 6px 0px;
+  border: white;
+  color: #ffffff;
+}
