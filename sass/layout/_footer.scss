@@ -1,6 +1,10 @@
 .footer {
   background-color: #214e41;
 }
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+}
 .brella-box {
   display: flex;
   flex-direction: row;
@@ -62,4 +66,73 @@
 }
 .company-list__item:not(:last-child) {
   margin-bottom: 15px;
+}
+.soc-list {
+  display: flex;
+}
+.get {
+  padding-top: 100px;
+}
+.get__form {
+  height: 52px;
+}
+.get__title {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.85;
+  letter-spacing: 0.02px;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+  color: #ffffff;
+}
+.get__text {
+  width: 345px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+.get__input {
+  width: 301px;
+  height: 50px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02px;
+  background-color: inherit;
+  color: #ffffff;
+  border-radius: 0px;
+  border-color: #ffffff;
+  padding-top: 22px;
+  padding-left: 21px;
+  padding-bottom: 6px;
+  border-right: none;
+  &::placeholder {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.02px;
+    color: #ffffff;
+  }
+}
+.footer-form-btn {
+  display: flex;
+  margin-bottom: 30px;
+}
+.get__btn {
+  width: 53px;
+  height: 50px;
+}
+.soc-item__icon {
+  background-color: inherit;
+  color: blue;
+}
+.soc-item:not(:last-child) {
+  margin-right: 25px;
 }
