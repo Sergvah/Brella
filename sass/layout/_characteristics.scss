@@ -14,6 +14,8 @@
 }
 .characteristics__item {
   width: 356px;
+  position: relative;
+  display: flex;
 }
 .characteristics__text {
   font-family: "Raleway";
@@ -25,9 +27,13 @@
 }
 .characteristics__text::before {
   content: "";
-  display: block;
 
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
   height: 45px;
+
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -40,3 +46,15 @@
 .characteristics__bag::before {
   background-image: url(../../images/Bag.svg);
 }
+
+// .content {
+//   position: relative;
+//   padding: 40px;
+//   background-color: #ccc;
+// }
+
+// .content::before {
+//   position: absolute;
+//   content: "";
+//   background: url(../../images/Dan.jpg) no-repeat right center;
+// }

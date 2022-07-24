@@ -1,0 +1,21 @@
+.backed {
+  padding-top: 128px;
+}
+.backed__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.28;
+  text-align: center;
+  margin-bottom: 110px;
+  color: #214e41;
+}
+.backed__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.backed__btn {
+  background-color: inherit;
+  border: none;
+}

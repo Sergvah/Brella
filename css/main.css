@@ -141,6 +141,10 @@ image {
   color: #ffffff;
 }
 
+.find-out__btn-form {
+  display: flex;
+}
+
 .logo {
   font-family: "Rubik";
   font-weight: 500;
@@ -213,6 +217,8 @@ image {
 .footer-box {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 70px;
 }
 
 .brella-box {
@@ -361,6 +367,91 @@ image {
 
 .soc-item:not(:last-child) {
   margin-right: 25px;
+}
+
+.privacy {
+  padding-top: 70px;
+}
+
+.policy__text {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.policy__second-text {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02px;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.policy__third-text {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02px;
+  color: #ffffff;
+}
+
+.policy__tel-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.reserved {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+  padding-bottom: 50px;
+}
+
+.reserved__text {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02px;
+  color: #ffffff;
+}
+
+.reserved__second-text {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02px;
+  color: #ffffff;
+}
+
+.reserved__third-text {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02px;
+  color: #ffffff;
+}
+
+.reserved__list {
+  display: flex;
+}
+
+.reserved__item:not(:last-child) {
+  padding-right: 10px;
+  border-right: 1px solid #ffffff;
+}
+
+.reserved__item:not(:first-child) {
+  margin-left: 10px;
 }
 
 .introduction {
@@ -645,6 +736,8 @@ image {
 
 .characteristics__item {
   width: 356px;
+  position: relative;
+  display: flex;
 }
 
 .characteristics__text {
@@ -657,8 +750,11 @@ image {
 
 .characteristics__text::before {
   content: "";
-  display: block;
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
   height: 45px;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -869,4 +965,29 @@ image {
   background: #43806c;
   border: 1px solid #43806c;
   border-radius: 6px;
+}
+
+.backed {
+  padding-top: 128px;
+}
+
+.backed__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.28;
+  text-align: center;
+  margin-bottom: 110px;
+  color: #214e41;
+}
+
+.backed__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.backed__btn {
+  background-color: inherit;
+  border: none;
 }/*# sourceMappingURL=main.css.map */
